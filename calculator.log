@@ -1,0 +1,40 @@
+21/03/2023:18:08:48 125 [Calculator.java] [INFO] Calculator [FACTORIAL] - 2
+21/03/2023:18:08:48 136 [Calculator.java] [INFO] Calculator [RESULT - FACTORIAL] - 2
+21/03/2023:18:08:48 136 [Calculator.java] [INFO] Calculator [FACTORIAL] - 0
+21/03/2023:18:08:48 137 [Calculator.java] [INFO] Calculator [RESULT - FACTORIAL] - 1
+21/03/2023:18:08:48 137 [Calculator.java] [INFO] Calculator [FACTORIAL] - 10
+21/03/2023:18:08:48 138 [Calculator.java] [INFO] Calculator [RESULT - FACTORIAL] - 3628800
+21/03/2023:18:08:48 140 [Calculator.java] [INFO] Calculator [SQROOT] - 121
+21/03/2023:18:08:48 143 [Calculator.java] [INFO] Calculator [RESULT - SQROOT] - 11.0
+21/03/2023:18:08:48 144 [Calculator.java] [INFO] Calculator [SQROOT] - 81
+21/03/2023:18:08:48 145 [Calculator.java] [INFO] Calculator [RESULT - SQROOT] - 9.0
+21/03/2023:18:08:48 146 [Calculator.java] [INFO] Calculator [SQROOT] - 100
+21/03/2023:18:08:48 146 [Calculator.java] [INFO] Calculator [RESULT - SQROOT] - 10.0
+21/03/2023:18:08:48 148 [Calculator.java] [INFO] Calculator [LOG] - 1
+21/03/2023:18:08:48 149 [Calculator.java] [INFO] Calculator [RESULT - LOG] - 0.0
+21/03/2023:18:08:48 150 [Calculator.java] [INFO] Calculator [LOG] - 2
+21/03/2023:18:08:48 151 [Calculator.java] [INFO] Calculator [RESULT - LOG] - 0.6931471805599453
+21/03/2023:18:08:48 152 [Calculator.java] [INFO] Calculator [FACTORIAL] - 4
+21/03/2023:18:08:48 152 [Calculator.java] [INFO] Calculator [RESULT - FACTORIAL] - 24
+21/03/2023:18:08:48 152 [Calculator.java] [INFO] Calculator [FACTORIAL] - 0
+21/03/2023:18:08:48 153 [Calculator.java] [INFO] Calculator [RESULT - FACTORIAL] - 1
+21/03/2023:18:08:48 153 [Calculator.java] [INFO] Calculator [FACTORIAL] - 7
+21/03/2023:18:08:48 153 [Calculator.java] [INFO] Calculator [RESULT - FACTORIAL] - 5040
+21/03/2023:18:08:48 162 [Calculator.java] [INFO] Calculator [POWER] - 2, 5
+21/03/2023:18:08:48 163 [Calculator.java] [INFO] Calculator [RESULT - POWER] - 32
+21/03/2023:18:08:48 164 [Calculator.java] [INFO] Calculator [POWER] - 8, 4
+21/03/2023:18:08:48 164 [Calculator.java] [INFO] Calculator [RESULT - POWER] - 4096
+21/03/2023:18:08:48 164 [Calculator.java] [INFO] Calculator [POWER] - 10, 7
+21/03/2023:18:08:48 165 [Calculator.java] [INFO] Calculator [RESULT - POWER] - 10000000
+21/03/2023:18:08:48 165 [Calculator.java] [INFO] Calculator [POWER] - 4, 3
+21/03/2023:18:08:48 166 [Calculator.java] [INFO] Calculator [RESULT - POWER] - 64
+21/03/2023:18:08:48 166 [Calculator.java] [INFO] Calculator [POWER] - 5, 4
+21/03/2023:18:08:48 166 [Calculator.java] [INFO] Calculator [RESULT - POWER] - 625
+21/03/2023:18:08:48 166 [Calculator.java] [INFO] Calculator [POWER] - 7, 2
+21/03/2023:18:08:48 167 [Calculator.java] [INFO] Calculator [RESULT - POWER] - 49
+21/03/2023:18:08:48 167 [Calculator.java] [INFO] Calculator [SQROOT] - 4
+21/03/2023:18:08:48 167 [Calculator.java] [INFO] Calculator [RESULT - SQROOT] - 2.0
+21/03/2023:18:08:48 168 [Calculator.java] [INFO] Calculator [SQROOT] - 144
+21/03/2023:18:08:48 168 [Calculator.java] [INFO] Calculator [RESULT - SQROOT] - 12.0
+21/03/2023:18:08:48 168 [Calculator.java] [INFO] Calculator [SQROOT] - 49
+21/03/2023:18:08:48 168 [Calculator.java] [INFO] Calculator [RESULT - SQROOT] - 7.0

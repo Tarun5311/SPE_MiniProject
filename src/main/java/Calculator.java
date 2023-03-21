@@ -1,8 +1,13 @@
 import java.util.*;
 import java.lang.Math.*;
 
+import java.util.InputMismatchException;
+import java.util.Scanner;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 public class Calculator{
+    private static final Logger logger = LogManager.getLogger(Calculator.class);
     static Calculator calc = new Calculator();
     public static void main(String[] args)
     {
@@ -61,34 +66,54 @@ public class Calculator{
 
     public double sqroot(int x)
     {
+        if(x < 0)
+        {
+            logger.info("[ERROR - SQROOT] - negative number is given");
+        }
+        logger.info("[SQROOT] - " + x);
         double ret = 0;
         ret = Math.sqrt(x);
+        logger.info("[RESULT - SQROOT] - " + ret);
         return ret;
     }
 
     public long factorial(int x)
     {
+        if(x < 0){
+            logger.error("[ERROR - FACTORIAL] - negative number is given for finding the factorial");
+            return -1;
+        }
+        logger.info("[FACTORIAL] - " + x);
         long ret = 1;
         for(int i=1; i<=x; i++)
         {
             ret *= i;
         }
+        logger.info("[RESULT - FACTORIAL] - " + ret);
         return ret;
     }
 
     public double lnx(int x)
     {
+        if(x < 0)
+        {
+            logger.error("[ERROR - LOG] - negative number is given to find its natural logarithm");
+        }
+        logger.info("[LOG] - " + x);
         double ret = Math.log(x);
+        logger.info("[RESULT - LOG] - " + ret);
         return ret;
     }
 
     public long power(int x, int b)
     {
+        logger.info("[POWER] - " + x + ", " + b);
         long ret = 1;
         for(int i=1; i<=b; i++)
         {
             ret *= x;
         }
+        logger.info("[RESULT - POWER] - " + ret);
         return ret;
     }
 }
