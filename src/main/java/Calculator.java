@@ -77,6 +77,7 @@ public class Calculator{
         return ret;
     }
 
+    //Factorial
     public long factorial(int x)
     {
         if(x < 0){
