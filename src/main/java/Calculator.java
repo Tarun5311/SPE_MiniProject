@@ -94,7 +94,7 @@ public class Calculator{
         return ret;
     }
 
-    //Natural Algorithm
+    //Natural Logarithm
     public double lnx(int x)
     {
         if(x < 0)
