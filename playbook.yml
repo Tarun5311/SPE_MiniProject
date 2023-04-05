@@ -10,5 +10,6 @@
     - name: pull docker image
       shell: docker pull tarun2407/scientific_calculator
 
+
     - name: running container
       shell: docker run -it -d tarun2407/scientific_calculator /bin/bash
